@@ -1,0 +1,12 @@
+<h3>User Edit</h3>
+<form (submit)="update()">
+  <input type="text" name="first_name" [(ngModel)]="editUser.first_name">
+  <input type="text" name="last_name" [(ngModel)]="editUser.last_name">
+  <input type="text" name="email" [(ngModel)]="editUser.email">
+
+  <button type="submit">
+    Update
+  </button>
+
+
+</form>
